@@ -1,0 +1,22 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Circular Background -->
+  <circle cx="100" cy="100" r="100" fill="#87CEEB" />
+
+  <!-- Map Pin (Destination) -->
+  <g transform="translate(100, 120)">
+    <circle cx="0" cy="0" r="10" fill="#FF0000" />
+    <path d="M0 -20 L-10 0 L10 0 Z" fill="#FF0000" />
+  </g>
+
+  <!-- Plane (Travel) -->
+  <g transform="translate(50, 50) rotate(45)">
+    <path d="M0 0 L20 10 L0 20 Z" fill="#FFFFFF" />
+    <path d="M20 10 L40 10 L30 20 Z" fill="#FFFFFF" />
+  </g>
+
+  <!-- Path (Journey) -->
+  <path d="M20 180 Q100 100 180 120" stroke="#FFFFFF" stroke-width="3" fill="none" stroke-dasharray="5,5" />
+
+  <!-- Text (Story Title) -->
+  <text x="100" y="30" font-family="Arial" font-size="16" fill="#000000" text-anchor="middle">My Travel Story</text>
+</svg>
